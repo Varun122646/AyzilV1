@@ -14,7 +14,7 @@ export default function Navbar() {
             <div className={styles.navWrapper + " d-flex justify-content-between align-items-center container py-3"}>
                 <div className={styles.navBrand + " "}>
                     <p className={styles.navName + " mb-0"} >
-                        AYZILL WATER
+                        AYZILL WATERrrrr
                     </p>
                 </div>
                 <div className={styles.navLinksWrapper + " "}>
