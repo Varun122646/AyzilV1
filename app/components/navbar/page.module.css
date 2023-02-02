@@ -1,0 +1,51 @@
+.navWrapper {}
+
+.navBrand {
+    color: #4C7DF0;
+    /* font-family: MADE TOMMY; */
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navName {}
+
+.navLinksWrapper {}
+
+.navLink {
+    text-decoration: none;
+    color: #3A3B48;
+    font-family: Product Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+.menu{
+    display: none;
+}
+.phoneNavLinksWrapper{
+    display: none;
+    position: fixed;
+    background-color: #f8f8f8;
+    right: 0;
+    bottom: 0;
+    height: calc(100vh - 62px);
+    width: 35vw;
+}
+.phoneNavLink{
+    text-decoration: none;
+    color: #3A3B48;
+    
+}
+
+/* Media querries */
+
+@media only screen and (max-width: 760px) {
+    .navLink {
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .phoneNavLinksWrapper{
+        display: flex;
+    }
+}
